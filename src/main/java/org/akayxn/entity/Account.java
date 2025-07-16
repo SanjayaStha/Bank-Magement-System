@@ -3,11 +3,17 @@ package org.akayxn.entity;
 import java.util.Date;
 
 public class Account {
+    private String accountNo;
     private String cusId;
     private double amount;
     private Date open_date;
     private String status;
     private String type;
+
+
+    public Account(){
+
+    }
 
     public String getCusId() {
         return cusId;
